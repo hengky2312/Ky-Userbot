@@ -1855,7 +1855,7 @@ async def _(siwis):
     await siwis.edit(reply_text)
 
 
-@bot.on(man_cmd(outgoing=True, pattern=r"koc$"))
+@bot.on(man_cmd(outgoing=True, pattern=r"kyy$"))
 async def _(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("8✊===D")
